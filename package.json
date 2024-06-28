@@ -1,0 +1,37 @@
+{
+  "name": "my_solidity_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ronaksharma.rk77@gmail.com",
+  "license": "UNLICENCED",
+  "devDependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@typechain/ethers-v5": "^10.2.1",
+    "@typechain/hardhat": "^6.1.6",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^9.1.1",
+    "hardhat": "^2.22.5",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solidity-coverage": "^0.7.22",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.2",
+    "artifacts": "^0.0.1",
+    "chai": "^5.1.1",
+    "mocha": "^10.5.1",
+    "subl": "^1.0.3"
+  }
+}
